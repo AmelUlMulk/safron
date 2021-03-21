@@ -5,6 +5,11 @@ const layout = (props) => {
     return (
        <>
        <Menu  mode="horizontal" style={{padding:"1rem",fontSize:'1rem',marginBottom:'1rem'}}>
+       <Menu.Item key="home" >
+          <Link href='/'>
+          <a>Home</a>
+          </Link>
+        </Menu.Item>
         <Menu.Item key="mail" >
           <Link href='about-us'>
           <a>About Us</a>
